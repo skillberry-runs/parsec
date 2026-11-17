@@ -51,7 +51,7 @@ That is **+0.133 — an improvement**, on a task the run reports as broken with 
 was never re-measured. Three ceiling trials drawn from a distribution whose `n=9` mode is `0.800`.
 
 This task has **no errored trials in either cell**, so the sign flip is not a denominator question. It
-is purely `n=3` against `n=9`. Together with [`006`](v2-bench-aap2-006-log-root-cause.md), which is
+is purely `n=3` against `n=9`. Together with [`006`](bench-aap2-006-log-root-cause.md), which is
 exactly flat at `n=9`, **both entries in this run's `broke={}` list are wrong.**
 
 ## What worked

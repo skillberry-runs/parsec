@@ -83,7 +83,7 @@ The contract deliberately omits `"unreachable"` from the forbidden list, and the
 
 But the forbidden fact that *was* kept, `no-invented-network-cause`, is scored by **absence** — so it is
 one of four answer items that an agent earns by not saying something. This is the same structural flaw
-[`009`](v2-bench-aap2-009-nonexistent-job.md) found and fixed by deleting its forbidden fact outright,
+[`009`](bench-aap2-009-nonexistent-job.md) found and fixed by deleting its forbidden fact outright,
 after measuring that a full fabrication and an honest refusal both scored `0.600`. Here the fabrication
 vocabulary is not blocked by the seed, so the fact is not free in the same degenerate way — but
 "4 of 4 answer items" still overstates what a trial demonstrated by one item, and the audit
@@ -114,6 +114,6 @@ finding most likely to transfer to production.
 **We cannot read `+0.244` as anything.** At equal `n` this task moved `+0.028`: one trial out of nine,
 from `0.800` to `1.000`, on a metric whose remaining gap is a single tool call. This is the largest gap
 between a reported per-task delta and its equal-`n` counterpart in the run, and, with
-[`007`](v2-bench-aap2-007-count-and-oldest.md)'s false `+0.130` and
-[`008`](v2-bench-aap2-008-preceding-task.md)'s false `−0.022`, one of the three clearest reasons the
+[`007`](bench-aap2-007-count-and-oldest.md)'s false `+0.130` and
+[`008`](bench-aap2-008-preceding-task.md)'s false `−0.022`, one of the three clearest reasons the
 run's per-task verdicts should be re-derived from `seed_train` rather than read off `report.md`.

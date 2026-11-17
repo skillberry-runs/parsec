@@ -69,8 +69,8 @@ answers about a completely different failure (HTTP 401 on inventory sync rather 
 datastream).
 
 Nine of nine at ceiling is the strongest per-task result in v2 alongside
-[`001`](v2-bench-aap2-001-single-job-outcome.md) and
-[`009`](v2-bench-aap2-009-nonexistent-job.md).
+[`001`](bench-aap2-001-single-job-outcome.md) and
+[`009`](bench-aap2-009-nonexistent-job.md).
 
 ## What didn't
 

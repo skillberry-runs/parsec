@@ -71,8 +71,8 @@ contract fixes took this scenario from scoring a correct answer as `0.833` to sc
 **The reported `+0.130` on this task is backwards.** It compares the `n=9` candidate against a *reused*
 `n=3` `seed` of `0.778` (`[0.833, 0.833, 0.667]`) — a three-trial sample that happened to draw none of
 the seed's six ceiling trials. Measured at the same `n`, the champion **lost** ground here. This is the
-mirror image of [`006`](v2-bench-aap2-006-log-root-cause.md) and
-[`008`](v2-bench-aap2-008-preceding-task.md), where the same mismatch manufactured two false
+mirror image of [`006`](bench-aap2-006-log-root-cause.md) and
+[`008`](bench-aap2-008-preceding-task.md), where the same mismatch manufactured two false
 regressions: on this task it manufactured a false improvement, and the `+0.130` is the second-largest
 apparent per-task gain in the run.
 

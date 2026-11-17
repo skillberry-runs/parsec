@@ -38,7 +38,7 @@ _Every number above is generated from [`results/results.json`](../../results/res
 
 The champion `cand_0001` took this task to **1.000 on 9 of 9 trials**, from a seed that had never once
 exceeded `0.800` in any run at any trial count. Together with
-[`001`](v2-bench-aap2-001-single-job-outcome.md) it is the most convincing result in v2, and unlike
+[`001`](bench-aap2-001-single-job-outcome.md) it is the most convincing result in v2, and unlike
 `001` the reported verdict and the equal-`n` verdict agree that something real happened.
 
 cap-evolve names it in `fixed={}`, correctly. The relevant edits are the new Rule 5 (retry once on a

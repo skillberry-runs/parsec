@@ -107,7 +107,7 @@ the answer was wrong. The framework's `RESULT` for that iteration also named thi
 **The load-bearing lesson is about the verdict, not the task.** This is the cleanest counterexample in
 the branch to reading cap-evolve's `fixed`/`broke` lists as facts about candidates. Two tasks appear
 under `broke={}` in this run. At equal `n`, this one is **exactly flat** and
-[`008`](v2-bench-aap2-008-preceding-task.md) is **+0.133 — an improvement**. Both entries are wrong,
+[`008`](bench-aap2-008-preceding-task.md) is **+0.133 — an improvement**. Both entries are wrong,
 and both are wrong for the same structural reason: the run gated an `n=9` candidate against an `n=3`
 baseline it reused instead of re-measuring (`--reuse-baseline`), so every per-task verdict is a
 comparison between different trial counts. See `results/v2/summary.md`.

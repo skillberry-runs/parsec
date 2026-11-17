@@ -115,11 +115,11 @@ job.
 **We can learn that a rejected candidate's damage is recoverable and worth chasing.** Iteration 1's
 zeros here are the strongest evidence in v2 that the gate does useful work — it caught a real,
 total regression on a real task and reverted it. That is the same mean-based paired gate that
-discarded v1's only trajectory match (see [`v1-aap2-0047`](v1-aap2-0047.md)). It is the right
+discarded v1's only trajectory match (see [`v1-aap2-0047`](../v1/aap2-0047.md)). It is the right
 mechanism pointed at the right question here and at the wrong question there.
 
 **We cannot conclude the champion is safe on this task.** Two of its nine trials still lose a call,
 and no rollout was read to find out which. And the underlying edit is, again, a correction to the
 skill's description of the harness's tool behaviour rather than to its reasoning — the same
 transferability question raised in [`v1`-vs-`v2` terms](../../results/v2/summary.md) and on
-[`v2-bench-aap2-001`](v2-bench-aap2-001-single-job-outcome.md).
+[`v2-bench-aap2-001`](bench-aap2-001-single-job-outcome.md).
