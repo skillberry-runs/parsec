@@ -236,7 +236,7 @@ def build_results(source, new_ids, v4_ids, b1_by_task):
             "skill_under_test": (
                 "artifacts/v4/v4_g_e1/best -- cand_0004, v4's accepted G2-arm champion "
                 "(best_id_overall in results/v4/v4_g_e1/results.json). Verified byte-identical "
-                "to https://github.com/skillberry-ai/cap-evolve/tree/parsec-history/"
+                "to https://github.com/skillberry-runs/parsec/tree/main/"
                 "artifacts/v4/v4_g_e1/best via git hash-object against that ref's blobs. Not "
                 "duplicated under artifacts/v5/ -- same bytes, same path, no new artifacts dir."
             ),

@@ -43,7 +43,7 @@ Every task's project is scaffolded with `artifacts/v4/v4_g_e1/best` installed as
 capability, in place of `v5_b1_e1`'s `artifacts/v5/seed/`. `cand_0004` is v4's accepted G2-arm
 champion — optimized once, against v4's 34-task set, before this arm ever ran; nothing here
 re-optimizes it. **Verified byte-identical** to
-[`artifacts/v4/v4_g_e1/best`](https://github.com/skillberry-ai/cap-evolve/tree/parsec-history/artifacts/v4/v4_g_e1/best)
+[`artifacts/v4/v4_g_e1/best`](https://github.com/skillberry-runs/parsec/tree/main/artifacts/v4/v4_g_e1/best)
 on this branch — see
 [`../../results/v5/v5_g2_e1/summary.md`](../../results/v5/v5_g2_e1/summary.md) for why that
 verification matters (the discarded `v5_t1_e1` run installed the wrong candidate from the same

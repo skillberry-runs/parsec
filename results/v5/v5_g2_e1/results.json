@@ -4827,7 +4827,7 @@
     },
     "task_set_membership": "results/v5/v5_g2_e1/task_set_10-12.txt",
     "v5_baseline": "results/v5/v5_b1_e1/results.json (task_ledger[].reward, same 136 tasks)",
-    "skill_under_test": "artifacts/v4/v4_g_e1/best -- cand_0004, v4's accepted G2-arm champion (best_id_overall in results/v4/v4_g_e1/results.json). Verified byte-identical to https://github.com/skillberry-ai/cap-evolve/tree/parsec-history/artifacts/v4/v4_g_e1/best via git hash-object against that ref's blobs. Not duplicated under artifacts/v5/ -- same bytes, same path, no new artifacts dir.",
+    "skill_under_test": "artifacts/v4/v4_g_e1/best -- cand_0004, v4's accepted G2-arm champion (best_id_overall in results/v4/v4_g_e1/results.json). Verified byte-identical to https://github.com/skillberry-runs/parsec/tree/main/artifacts/v4/v4_g_e1/best via git hash-object against that ref's blobs. Not duplicated under artifacts/v5/ -- same bytes, same path, no new artifacts dir.",
     "no_optimizer_stage": "zero-shot reuse of an existing candidate: no seed/candidate/best/final lineage for v5 itself. Only afterwards, if this arm's result warrants it, would a v5 optimizer round run against this skill as its starting point."
   }
 }

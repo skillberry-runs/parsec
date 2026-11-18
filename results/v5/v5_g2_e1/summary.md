@@ -36,7 +36,7 @@ step, to see whether a skill tuned on a different (smaller, older) task set gene
 rebuilt v5 benchmark before spending any optimizer budget on v5 itself.
 
 **Verified byte-identical** to
-[`artifacts/v4/v4_g_e1/best`](https://github.com/skillberry-ai/cap-evolve/tree/parsec-history/artifacts/v4/v4_g_e1/best)
+[`artifacts/v4/v4_g_e1/best`](https://github.com/skillberry-runs/parsec/tree/main/artifacts/v4/v4_g_e1/best)
 on this branch, via `git hash-object` against that ref's blobs — not vendored again under
 `artifacts/v5/`, since the bytes and the path are already here.
 
